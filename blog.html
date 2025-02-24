@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>royal bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo_1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- slider js link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Outfit:wght@100..900&family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- popup html -->
+    <main class="popup_main">
+        <div class="popup_container">
+          <div class="popup_body">
+            <div class="popup_top">
+                <h5>Order Info</h5>
+                <div class="pop_close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="popup_info">
+                <div class="popup_inputs">
+                    <input name="name" type="text" placeholder="Full Name *" required="">
+                </div>
+                <div class="popup_inputs">
+                    <input name="email" type="email" placeholder="Email *" required="">
+                </div>
+                <div class="popup_inputs">
+                    <input name="phone" type="number" placeholder="Phone *" required="">
+                </div>
+                <div class="popup_inputs calender">
+                    <input name="name" type="date" placeholder="Full Name *" required="">
+                </div>
+                <div class="popuptextarea">
+                    <textarea name="message" cols="30" rows="4" placeholder="Address"></textarea>
+                </div>
+                <div class="popupbtn">
+                    <a href="#">Order now</a>
+                </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+     <!-- header html -->
+
+    <div class="header_outer">
+        <main class="container_body">
+            <header class="header_target">
+                <div class="container">
+                    <div class="header_wrapper">
+                        <div class="header_logo">
+                            <a href="http://127.0.0.1:5500/homepage.html">
+                                <h3> Royal <img src="images/logo_1.png" alt="logo"> Bakers </h3>
+                            </a>
+                        </div>
+                        <nav>
+                            <ul class="nav_bar">
+                                <li class="navigation">
+                                    <a class="nav_hover" href="http://127.0.0.1:5500/homepage.html">Home <div class="sub_open">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div></a>
+                                    <div class="submenu">
+                                        <ul class="submenu_nav">
+                                            <li>
+                                                <a href="http://127.0.0.1:5500/homepage.html">Home 1</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="navigation">
+                                    <a class="nav_hover" href="#">Pages <div class="sub_open">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div></a>
+                                    <div class="submenu">
+                                        <ul class="submenu_nav">
+                                            <li>
+                                                <a href="#">About us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Services</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Gallery</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="navigation">
+                                    <a href="#">Features</a>
+                                </li>
+                                <li class="navigation">
+                                    <a href="#">Portfolio</a>
+                                </li>
+                                <li class="navigation">
+                                    <a class="nav_hover" href="http://127.0.0.1:5500/blog.html">Blog <div class="sub_open">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div></a>
+                                    <div class="submenu">
+                                        <ul class="submenu_nav">
+                                            <li>
+                                                <a href="http://127.0.0.1:5500/blog.html">Blog Post</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="navigation">
+                                    <a class="nav_hover" href="#">Contact <div class="sub_open">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div></a>
+
+                                    <div class="submenu">
+                                        <ul class="submenu_nav">
+                                            <li>
+                                                <a href="#">Contact 2</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header_btn">
+                            <div class="header_search">
+                                <input type="text" id="search" placeholder="Enter your search term...">
+                                <label for="search" id="search_label">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </label>
+                            </div>
+                            <div class="add_to_cart_btn popup_btn">
+                                <a href="#">Order Online</a>
+                            </div>
+                            <div class="bar">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </main>
+    </div>
+
+     <div class="blog_bg">
+        <div class="blog_inner">
+            <h3>Blog</h3>
+        </div>
+     </div>
+
+    <main class="container_body">
+        <div class="section_4 container">
+            <div class="section_4_inner">
+                <h3>Latest Post</h3>
+                <h5>Our Blog</h5>
+                <img src="images/section_seprate_2.png" alt="section-seprator" width="169" height="15">
+                <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up through the ground came a oil that is its a beautiful day.</p>
+            </div>
+        </div>
+    </main>
+   
+    <main class="container_body">
+        <div class="container">
+            <div class="blog_grid">
+                <div class="blogpost">
+                    <div class="blog_img">
+                        <img src="images/blog_1.png" alt="blog_image">
+                    </div>
+                    <div class="blog_content">
+                        <div class="blog_heading">
+                                <div class="post-date"><span>25</span><span class="month">jan</span></div>
+                               <div class="blog_links">
+                                <h3 class="entry-title"><a href="blog-post.html" title="THE MUPPET SHOW">the muppet show</a></h3>
+                                <div class="entry-meta">
+                                    <a title="Likes" href="#"><i class="fa-regular fa-heart"></i>10 Likes /</a>
+                                    <a title="Comments" href="#"><i class="fa-regular fa-comment"></i>15 Comments /</a>
+                                    <a title="Admin" href="#">Admin </a>
+                                </div>
+                               </div>
+                        </div>
+                        <div class="blog_discribtion">
+                            <div class="recent-content">
+                                <div class="entry-content">
+                                    <p>The day he was shooting at some food and up through the ground came a oil that is its a beautiful day came a oil.</p>
+                                </div>
+                                <a href="#" title="Read More" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogpost">
+                    <div class="blog_img">
+                        <img src="images/blog_2.png" alt="blog_image">
+                    </div>
+                    <div class="blog_content">
+                        <div class="blog_heading">
+                                <div class="post-date"><span>07</span><span class="month">Feb</span></div>
+                               <div class="blog_links">
+                                <h3 class="entry-title"><a href="blog-post.html" title="THE MUPPET SHOW">the muppet show</a></h3>
+                                <div class="entry-meta">
+                                    <a title="Likes" href="#"><i class="fa-regular fa-heart"></i>10 Likes /</a>
+                                    <a title="Comments" href="#"><i class="fa-regular fa-comment"></i>15 Comments /</a>
+                                    <a title="Admin" href="#">Admin </a>
+                                </div>
+                               </div>
+                        </div>
+                        <div class="blog_discribtion">
+                            <div class="recent-content">
+                                <div class="entry-content">
+                                    <p>The day he was shooting at some food and up through the ground came a oil that is its a beautiful day came a oil.</p>
+                                </div>
+                                <a href="#" title="Read More" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogpost">
+                    <div class="blog_img">
+                        <img src="images/blog_3.png" alt="blog_image">
+                    </div>
+                    <div class="blog_content">
+                        <div class="blog_heading">
+                                <div class="post-date"><span>14</span><span class="month">Apr</span></div>
+                               <div class="blog_links">
+                                <h3 class="entry-title"><a href="blog-post.html" title="THE MUPPET SHOW">the muppet show</a></h3>
+                                <div class="entry-meta">
+                                    <a title="Likes" href="#"><i class="fa-regular fa-heart"></i>10 Likes /</a>
+                                    <a title="Comments" href="#"><i class="fa-regular fa-comment"></i>15 Comments /</a>
+                                    <a title="Admin" href="#">Admin </a>
+                                </div>
+                               </div>
+                        </div>
+                        <div class="blog_discribtion">
+                            <div class="recent-content">
+                                <div class="entry-content">
+                                    <p>The day he was shooting at some food and up through the ground came a oil that is its a beautiful day came a oil.</p>
+                                </div>
+                                <a href="#" title="Read More" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog_btn">
+                <div class="add_to_cart_btn-2">
+                    <a href="#">View all post</a>
+                </div>
+            </div>
+        </div>
+     </main>
+
+          <!-- footer started here -->
+   <div class="footer_bg">
+    <main class="container_body">
+        <div class="footer-main">
+            <div class="container">				
+                <div class="footer_upper">
+                    <h4>subscribe to our newsletter</h4>
+                    <div class="footer_input">
+                        <div class="form_input"><input type="text" placeholder="Your Email Here" name="email"><i class="fa-regular fa-envelope"></i></div>
+                        <div class="input_btn"><input type="submit" value="subscribe" class="btn-default" name="subscribe"></div>
+                    </div>
+                </div>
+            </div>
+           <!-- </main> -->
+            <!-- <main class="container_body"> -->
+                <div class="container">
+                   <footer>
+                       <div class="footer_grid">
+                           <div class="about-footer">
+                               <h3>Royal<img src="images/logo_1.png" alt="logo" width="63" height="71">Bakers</h3>
+                               <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up through the ground oil.</p>
+                               <a href="contact-2.html" title="Contact" class="about-links">Contact</a>
+                           </div>
+                       </div>
+                       <div class="footer_grid footer_middle">
+                           <h5>Order online</h5>
+                           <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up through the ground oil.</p>
+                           <a href="#" title="Order Now" class="about-links order">Order Now</a>
+                       </div>
+                       <div class="footer_grid footer_links">
+                           <h5>Contact Us Today</h5>
+                           <p>Call Us 666 777 888 OR 111 222 333 Send an Email on contact@cakeshop.com Visit Us 123 Fake Street- London 12358 United Kingdom</p>
+                           <ul>
+                               <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                               <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                               <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                               <li><a href="#" ><i class="fa-brands fa-dribbble"></i></a></li>
+                           </ul>
+                       </div>
+                   </footer>
+                </div>
+         
+        </div>
+    </main>
+   </div>   
+  
+    <div class="footer_bottum">
+        <main class="container_body">
+            <div class="container">
+                <div class="foot_botom">
+                    <div class="footer-copyright">
+                        <p>© Copyrights 2016 Royal Bakers. All Rights Reserved</p>
+                    </div>
+                    <div class="footer-breadcrumb pull-right">
+                        <ul class="breadcrumb">
+                            <li title="Home" class="active">Home</li>
+                            <li>/<a title="About Us" href="about.html">About</a></li>							
+                            <li>/<a title="Services" href="services.html">Services</a></li>
+                            <li>/<a title="Portfolio" href="gallery-2.html">Portfolio</a></li>
+                            <li>/<a title="Blog" href="blog.html">Blog</a></li>
+                            <li>/<a title="Contact" href="contact-2.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
